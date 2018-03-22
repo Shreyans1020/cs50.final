@@ -29,11 +29,11 @@ def main():
         if ((choice == 1) or (choice == 2)):
             break
     stock = input(str("Which company's stock are you interested in?   "))
-    #excel_document = openpyxl.load_workbook('Stock_Information.xlsx')
+    excel_document = openpyxl.load_workbook('Stock_Information.xlsx')
         #Database linked
 
-    #sheet = excel_document.get_sheet_by_name('Sheet1')
-    #print (type(excel_document))
+    sheet = excel_document.get_sheet_by_name('Sheet1')
+    print (type(excel_document))
     Investor(firstName, lastName, email, Bday, money)
     Stocks()
 
