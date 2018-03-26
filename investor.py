@@ -15,7 +15,8 @@ class Investor():
         self.email = email
         self.Bday = Bday
         self.money = money
-
+    def question(self)
+        print("Whats up')
 
 
 
